@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/demo', { useNewUrlParser: true });
+mongoose.connect('mongodb+srv://logeshwarim2911:OvlxanZnAoR03IJE@rentify.uganitx.mongodb.net/?retryWrites=true&w=majority&appName=rentify', { useNewUrlParser: true });
 
 const db = mongoose.connection;
 
